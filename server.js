@@ -7,4 +7,7 @@ const port = process.env.PORT || 3000;
 server.use(middlewares);
 server.use(router);
 
+const caffeine = require("./caffeine.js");
+caffeine.caffeine(120, false);
+
 server.listen(port);

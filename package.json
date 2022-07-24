@@ -12,6 +12,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "json-server": "^0.17.0"
+    "cron": "^2.1.0",
+    "json-server": "^0.17.0",
+    "ping": "^0.4.2"
   }
 }
