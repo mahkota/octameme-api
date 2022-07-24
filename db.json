@@ -17,13 +17,13 @@
     },
     {
       "createdAt": "",
-      "createdBy": "John Doe",
+      "createdBy": "johndoe@mail.com",
       "url": "",
       "id": 2
     },
     {
       "createdAt": "",
-      "createdBy": "John Doe",
+      "createdBy": "johndoe@mail.com",
       "url": "",
       "id": 3
     }
@@ -31,7 +31,7 @@
   "memes": [
     {
       "createdAt": "",
-      "createdBy": "John Doe",
+      "createdBy": "johndoe@mail.com",
       "description": "",
       "imageId": 3,
       "subjectId": 1,
@@ -46,7 +46,7 @@
       "answerDetail": "The answer is A, because this is a sample question entry and lorem ipsum dolor sit amet.",
       "correctAnswerOption": "a",
       "createdAt": "",
-      "createdBy": "John Doe",
+      "createdBy": "johndoe@mail.com",
       "optionA": "Yes (correct).",
       "optionB": "Perhaps (incorrect)",
       "optionC": "No (incorrect)",
@@ -61,7 +61,7 @@
   "quizzes": [
     {
       "createdAt": "2022-07-17T15:32:25.076Z",
-      "createdBy": "John Doe",
+      "createdBy": "johndoe@mail.com",
       "endAt": "2022-07-18T15:32:25.076Z",
       "startAt": "2022-07-17T15:32:25.076Z",
       "subjectId": 1,
@@ -76,7 +76,7 @@
   "subjects": [
     {
       "createdAt": "2022-07-12T04:03:26.920Z",
-      "createdBy": "John Doe",
+      "createdBy": "johndoe@mail.com",
       "description": "Sample subject created to demonstrate the API.",
       "title": "Object-oriented Programming (OOP)",
       "updatedAt": "",
@@ -95,7 +95,7 @@
   "templates": [
     {
       "createdAt": "",
-      "createdBy": "John Doe",
+      "createdBy": "johndoe@mail.com",
       "description": "Drakeposting refers to the practice of posting reaction images and other still shots from the music video of the Canadian hip hop artist's 2015 hit single Hotline Bling on the imageboard site 4chan, typically to express one's disdain of the thread topic or something said by another poster.",
       "exampleImageId": 2,
       "imageId": 1,
@@ -109,16 +109,22 @@
     {
       "elevation": 0,
       "email": "fach.mkt@gmail.com",
+      "name": "Fachri Veryawan Mahkota",
+      "password": "$2a$12$I9CRby6CbscuX84kqaMlbOibj3pl0GiuR1ZjihxmGIMf57Q/falCy",
       "id": 1
     },
     {
       "elevation": 1,
       "email": "johndoe@mail.com",
+      "name": "John Doe",
+      "password": "$2a$12$8ezyuBDhw3HpagW6qR4W5OWBOC/G.DKI7d/J4EfhGx.RBc1hLLaaC",
       "id": 2
     },
     {
-      "email": "janedoe@mail.com",
       "elevation": 2,
+      "email": "janedoe@mail.com",
+      "name": "Jane Doe",
+      "password": "$2a$12$eMRNk.tzuOpAExKJ7FI/OOMToUzdUYoaEXHWvZbSzf1pX0IeM0IlS",
       "id": 3
     }
   ]
